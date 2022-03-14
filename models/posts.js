@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+
+// mongoose connection to mongodb database 
 const postSchema = mongoose.Schema({
     title: String,
     category: String,
